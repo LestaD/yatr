@@ -14,7 +14,8 @@
     "node": ">=0.10"
   },
   "bin": {
-    "trans": "yatr.js"
+    "trans": "yatr.js",
+    "yatr": "yatr.js"
   },
   "keywords": [
     "string",

@@ -82,10 +82,10 @@ if (word.length === 0) {
   // Read from pipe
   var string = ''
   process.stdin.on('data', function(chunk){
-    total += chunk;
+    string += chunk;
   });
   process.stdin.on('end', function(){
-    translate(total, 'en');
+    translate(string, 'en');
   });
 }
 else {

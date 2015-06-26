@@ -1,31 +1,38 @@
-# strlen
+# trans
 
-[![NPM](https://nodei.co/npm/strlen.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/strlen/)
+[![NPM](https://nodei.co/npm/trans.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/trans/)
 
-Command line tool for counting characters
+Command line tool for translate English and Russion
 
 # Usage
 
 From arguments:
 ```bash
-$ strlen Any long string
-15
+$ trans Any long string
+Любую длинную строку
 ```
 
 From pipe:
 ```bash
-$ echo "12345" | strlen
-5
+$ echo "My name is Sergey" | trans
+Меня зовут Сергей
+
 ```
 
 And
 ```bash
-$ strlen < ~/.ssh/id_rsa.pub 
-396
+$ trans < ~/myfile.ru.txt
+This file is contents...
 ```
 
 Last:
 ```bash
-$ strlen Me | cat
-2
+$ trans Me | cat
+Мне
+```
+
+Also you can use:
+```bash
+$ yatr Переведи меня, пожалуйста
+Translate me, please
 ```
