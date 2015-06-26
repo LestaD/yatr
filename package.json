@@ -1,0 +1,33 @@
+{
+  "name": "yatr",
+  "version": "1.0.0",
+  "description": "Translate any string from Engilsh to Russian",
+  "main": "yatr.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LestaD/yatr.git"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "bin": {
+    "trans": "yatr.js"
+  },
+  "keywords": [
+    "string",
+    "translate",
+    "yandex",
+    "command",
+    "linux",
+    "mac"
+  ],
+  "author": "LestaD <i.am@lestad.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LestaD/yatr/issues"
+  },
+  "homepage": "https://github.com/LestaD/yatr#usage"
+}
