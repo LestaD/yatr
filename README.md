@@ -1,6 +1,6 @@
 # trans
 
-[![NPM](https://nodei.co/npm/trans.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/trans/)
+[![NPM](https://nodei.co/npm/yatr.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/yatr/)
 
 Command line tool for translate English and Russion
 

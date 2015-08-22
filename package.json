@@ -1,6 +1,6 @@
 {
   "name": "yatr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Translate any string from Engilsh to Russian",
   "main": "yatr.js",
   "scripts": {
